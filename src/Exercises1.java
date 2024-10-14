@@ -11,8 +11,8 @@ public class Exercises1 {
         return notSufList;
     }
 ///second subpunct
-    int average(ArrayList<Integer> grades){
-        int sum = 0;
+    float average(ArrayList<Integer> grades){
+        float sum = 0;
         for (int i = 0; i < grades.size(); i++){
             if (grades.get(i) > 100 || grades.get(i)<0) throw  new RuntimeException();
             sum += grades.get(i);
@@ -37,10 +37,14 @@ public class Exercises1 {
     ///forth subpunct
     int max(ArrayList<Integer> grades){
         int max = 0;
-        ArrayList<Integer> rounded = rounded(grades);
+        ArrayList<Integer> grades1 = new ArrayList<Integer>();
+        for (int i = 0; i < grades.size(); i++){
+            grades1.add(grades.get(i));
+        }
+        ArrayList<Integer> rounded = this.rounded(grades1);
 
         for (int i = 0; i < grades.size(); i++){
-            if (rounded.get(i)>max && grades.get(i)%5!=0 && grades.get(i)%5>=3){
+            if (rounded.get(i)>max && grades.get(i)%5>=3){
                 max = rounded.get(i);
             }
         }
