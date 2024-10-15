@@ -1,3 +1,5 @@
+package lab1;
+
 import java.util.ArrayList;
 public class Exercises3 {
     ArrayList<Integer> sumArr(ArrayList<Integer> first, ArrayList<Integer> second) {
@@ -126,14 +128,7 @@ public class Exercises3 {
                 if (add!=0){
                     div.add(add);
                 }
-//                else{
-//                    div.add(add);
-
-//                }
             }
-//            if (a.get(i)%b!=0){
-
-//            }
         }return div;
     }
 }

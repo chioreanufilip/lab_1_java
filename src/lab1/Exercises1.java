@@ -1,4 +1,5 @@
-import javax.lang.model.type.NullType;
+package lab1;
+
 import java.util.ArrayList;
 public class Exercises1 {
     ///first subpunct

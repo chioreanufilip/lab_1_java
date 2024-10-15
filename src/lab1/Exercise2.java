@@ -1,3 +1,5 @@
+package lab1;
+
 import java.util.ArrayList;
 public class Exercise2 {
     int maxNumber(ArrayList<Integer> arr) {

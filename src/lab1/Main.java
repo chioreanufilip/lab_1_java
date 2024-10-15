@@ -1,4 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+package lab1;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 import java.util.ArrayList;
@@ -53,8 +53,19 @@ public class Main {
         n7.add(1);
         n7.add(2);
         n7.add(2);
-        System.out.println(m3.division(n7,2));
+//        System.out.println(m3.division(n7,2));
+        shop m4 = new shop();
+        ArrayList<Integer> n8 = new ArrayList<>();
+        n8.add(100);
+        n8.add(150);
+        n8.add(200);
 
-
+        System.out.println(m4.moneyCanBuy(n8, 175));
+        ArrayList<Integer> n9 = new ArrayList<>();
+        n9.add(100);
+        n9.add(25);
+        n9.add(300);
+        n9.add(40);
+        System.out.println(m4.maxMoneyBuy(n8,n9, 175));
     }
 }
