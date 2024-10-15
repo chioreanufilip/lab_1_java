@@ -44,7 +44,7 @@ public class Exercises1 {
         ArrayList<Integer> rounded = this.rounded(grades1);
 
         for (int i = 0; i < grades.size(); i++){
-            if (rounded.get(i)>max && grades.get(i)%5>=3){
+            if (rounded.get(i)>max){
                 max = rounded.get(i);
             }
         }
@@ -52,4 +52,3 @@ public class Exercises1 {
 
     }
 }
-

@@ -5,9 +5,6 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-//        System.out.printf("Hello and welcome!");
         Exercises1 m = new Exercises1();
         ArrayList<Integer> n = new ArrayList<>();
         n.add(35);
@@ -15,19 +12,49 @@ public class Main {
         n.add(67);
         n.add(90);
         n.add(5);
-//        n.add(-5);
-//        m.notSufficient(n);
-//        for (int i=0;i<m.notSufficient(n).size();i++){
-
-//        }
 //        System.out.println(m.notSufficient(n));
-        System.out.println(m.max(n));
+//        System.out.println(m.max(n));
 //        System.out.println(m.rounded(n));
 //        System.out.println(m.average(n));
-//        for (int i = 1; i <= 5; i++) {
-//            TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-//             for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-//            System.out.println("i = " + i);
-//        }
+
+        Exercise2 m2 = new Exercise2();
+//        System.out.println(m2.sumWithoutMax(n));
+//        System.out.println(m2.sumWithoutMin(n));
+        Exercises3 m3 = new Exercises3();
+        ArrayList<Integer> n2 = new ArrayList<>();
+        ArrayList<Integer> n3 = new ArrayList<>();
+        n2.add(1);
+        n2.add(1);
+        n2.add(1);
+        n3.add(1);
+        n3.add(9);
+        n3.add(1);
+        n3.add(1);
+//        System.out.println(m3.sumArr(n2,n3));
+        ArrayList<Integer> n4 = new ArrayList<>();
+        ArrayList<Integer> n5 = new ArrayList<>();
+        n4.add(2);
+        n4.add(1);
+        n4.add(1);
+        n5.add(1);
+        n5.add(1);
+        n5.add(3);
+//        System.out.println(m3.subtraction(n4, n5));
+
+
+
+    ArrayList<Integer> n6 = new ArrayList<>();
+    n6.add(5);
+    n6.add(1);
+    n6.add(7);
+//    System.out.println(m3.multiplication(n6,2));
+
+        ArrayList<Integer> n7 = new ArrayList<>();
+        n7.add(1);
+        n7.add(2);
+        n7.add(2);
+        System.out.println(m3.division(n7,2));
+
+
     }
 }
